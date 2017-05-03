@@ -127,7 +127,7 @@ app.get('/about', function(request, response) {
     response.send('Written by whitney');
 })
 
-app.get('/json', function(request, response) {
+app.get('/api', function(request, response) {
     var rand = personArray[Math.floor(Math.random() * personArray.length)];
     response.json({
         "results": [ rand ]
