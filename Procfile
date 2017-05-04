@@ -1,1 +1,1 @@
-web: node ./MyRandomUser/server.js
+web: node ./di-restfulserver/index.js
