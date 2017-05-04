@@ -1,0 +1,8 @@
+{
+  "secretkey":  "MyFirstServerSuperSecretKey-123454321AbCd-",
+  "dbUsernmae": "databse_name",
+  "dbPassword": "supersecret",
+  "dbSchema":   "database_schema",
+  "dbServer":   "localhost",
+  "webPost":    "8080"
+}
