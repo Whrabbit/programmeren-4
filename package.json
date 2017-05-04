@@ -2,9 +2,9 @@
   "name": "practicum",
   "version": "1.0.0",
   "description": "Random User Generator REST API in Node.js",
-  "main": "./MyRandomUser/server.js",
+  "main": "./di-restulserver/index.js",
   "scripts": {
-    "start": "node ./MyRandomUser/server.js"
+    "start": "node ./di-restulserver/index.js"
   },
   "author": "Whitney Cheung",
   "license": "ISC",
