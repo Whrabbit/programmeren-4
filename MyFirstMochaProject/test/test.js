@@ -9,7 +9,7 @@ var should = chai.should();
 chai.use(chaiHttp);
 
 describe('API Test', function() {
-    it('Test GET /api/v2/recipes', function(done) {
+    it('Test GET /api/v2/recipes?category=Salad', function(done) {
         chai.request(server)
             .get('/api/v2/recipes')
             .end(function(err, res) {
