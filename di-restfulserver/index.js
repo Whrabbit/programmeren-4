@@ -30,7 +30,7 @@ app.use(express.static(__dirname + '/public'));
 
 //ROUTING WITH VERSIONS
 app.use('/apiv1', require('./routes/routes_apiv1'));
-// app.use('/apiv2', require('./routes/routes_apiv2'));
+app.use('/apiv2', require('./routes/routes_apiv2'));
 app.use('/apiv3', require('./routes/routes_apiv3'));
 
 // START THE SERVER
