@@ -40,7 +40,7 @@ router.get('/recipes/:number', function(request, response) {
 });
 
 router.get('*', function(request, response) {
-    response.status(200);
+    response.status(404);
     response.json({
         "description": "Not found"
     });
