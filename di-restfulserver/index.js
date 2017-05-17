@@ -29,9 +29,10 @@ app.get('/api/v1/hello', function(req, res, next){
 app.use(express.static(__dirname + '/public'));
 
 //ROUTING WITH VERSIONS
-app.use('/apiv1', require('./routes/routes_apiv1'));
-app.use('/apiv2', require('./routes/routes_apiv2'));
-app.use('/apiv3', require('./routes/routes_apiv3'));
+// app.use('/apiv1', require('./routes/routes_apiv1'));
+// app.use('/apiv2', require('./routes/routes_apiv2'));
+// app.use('/apiv3', require('./routes/routes_apiv3'));
+app.use('/books', require('./routes/books'));
 
 // START THE SERVER
 var port    = process.env.PORT || app.get('PORT');
